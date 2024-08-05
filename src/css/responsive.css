@@ -1,0 +1,324 @@
+/* ===================== max-991px ===================== */
+
+@media screen and (max-width: 991px) {
+  .font-20 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .font-22 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .font-26 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .font-34 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+
+  .font-40 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .font-45 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .font-50 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  /* =============== header =============== */
+
+  .main-nav {
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .logo img {
+    width: 200px;
+  }
+
+  .main-nav .menu {
+    background-color: #222;
+    top: 0px;
+    flex-direction: column;
+    position: absolute;
+    align-items: flex-start;
+    left: -275px;
+    width: 275px;
+    height: 100vh;
+    padding: 25px;
+    transition: all 0.5s ease-in-out;
+    border-right: 2px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(to left, #5cd2b9, #5cd2b9);
+    z-index: 999;
+  }
+
+  .mbl-nav {
+    margin-top: 50px;
+  }
+
+  .main-nav .menu li a {
+    font-size: 18px;
+    color: #fff;
+  }
+
+  .navbar-toggle,
+  .navbar-close {
+    display: block;
+  }
+
+  .navbar-toggle i,
+  .navbar-close i {
+    width: 40px;
+    height: 40px;
+    border: 0px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #2d2d2d;
+    box-shadow: rgba(255, 255, 255, 1) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  }
+
+  .menu .navbar-close i {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 17px;
+  }
+
+  .navbar-toggle i {
+    font-size: 22px;
+  }
+
+  /* ============================== */
+
+  #bg-video {
+    display: none;
+  }
+
+  .banner {
+    background-image: url(../images/bg-img.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .banner-wrapper {
+    height: 100vh;
+    position: absolute;
+  }
+
+  .banner-txt {
+    text-align: left;
+  }
+
+  /* ============================== */
+
+  .who-img {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .who-img img {
+    width: 50%;
+  }
+
+  /* ============================== */
+
+  .serv-crd {
+    height: 300px;
+  }
+
+  /* ============================== */
+
+  .contact form {
+    width: 100%;
+  }
+
+  .contact form .inp-marg {
+    margin-top: 50px;
+  }
+
+  /* ===============Footer=============== */
+  
+  .footer {
+    padding-left: 50px;
+  }
+  
+  .footer .footer-heading {
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
+
+  /* ===============Packages=============== */
+  .pckgsCards-main .row{
+    row-gap: 50px;
+  }
+}
+
+/* ===================== max-767px ===================== */
+
+@media screen and (max-width: 767px) {
+  .font-18 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .font-20 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .font-22 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .font-24 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .font-34 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .font-45 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .font-50 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  /* ============================== */
+
+  .partners {
+    padding: 30px 0;
+  }
+
+  /* ============================== */
+
+  .contact form {
+    padding: 30px 20px;
+  }
+
+  .contact form .inp-marg {
+    margin-top: 30px;
+  }
+
+  /* ============================== */
+
+  .privacy {
+    padding-top: 40px;
+  }
+
+  /* ============================== */
+
+  .terms {
+    padding-top: 40px;
+  }
+
+  /* ============================== */
+
+  .faqs {
+    padding-top: 40px;
+  }
+
+  .accordion-item button {
+    font-size: 16px;
+  }
+
+  /* ===============Footer=============== */
+
+  .footer {
+    border-top-left-radius: 0px;
+    padding-top: 20px;
+    padding-left: 10px;
+  }
+
+  .footer .footer-heading {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .list-unstyled li a:hover::before {
+    transition: all 0.7s ease;
+  }
+
+  /* ===============Popup=============== */
+
+  .popup-card {
+    top: 120px;
+  }
+
+  .popup-left {
+    float: left;
+    padding: 10px 20px;
+  }
+
+  .ourPopup .modal-header {
+    top: 26%;
+    right: 8%;
+  }
+}
+
+/* ========================================== */
+
+@media (max-width: 399px) {
+  .popup-card {
+    top: 100px;
+  }
+
+  .popup-left {
+    float: left;
+    padding: 0px;
+  }
+
+  .ourPopup .modal-header {
+    top: 23%;
+    right: 8%;
+  }
+}
+
+/* ========================================== */
+
+@media (max-width: 321px) {
+  .ourPopup .modal-header {
+    top: 23%;
+    right: 10%;
+  }
+
+  .font-50 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .input-group i {
+    top: 18px;
+    font-size: 12px;
+    left: 5px;
+  }
+
+  .form-popup input {
+    padding-left: 30px;
+  }
+}
